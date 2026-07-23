@@ -2,6 +2,7 @@ resources:
   jobs:
     daily_ingestion:
       name: daily_ingestion
+      timeout_seconds: 7200 
       trigger:
         pause_status: UNPAUSED
         periodic:
